@@ -1,6 +1,10 @@
 *.rsuser
 *.suo
 *.user
+*.vcxproj.user
+*.vcxproj.filters
+*.userosscache
+*.sln.docstates
 Thumbs.db
 Desktop.ini
 *.cab
@@ -9,8 +13,8 @@ Desktop.ini
 *.msp
 *.lnk
 
-[Dd]ebug/
-[Rr]elease/
+[Dd]ebug*/
+[Rr]elease*/
 x64/
 x86/
 [Aa][Rr][Mm]/
@@ -18,5 +22,7 @@ x86/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Oo]ut/
 packages/
 .vscode/
+.vs/
